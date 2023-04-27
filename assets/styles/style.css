@@ -1,0 +1,156 @@
+:root
+{
+    --primary-background-color: rgba(0, 255, 0, 1);
+    --secondary-background-color: rgba(0, 255, 0, 0.5);
+}
+
+*
+{
+    box-sizing: border-box;
+    margin: auto 0;
+}
+
+body{
+    width: 800px;
+    background-color: gray;
+}
+
+header
+{
+    background-color: var(--secondary-background-color);
+    margin-bottom: 10px;
+    padding: 8px;
+}
+
+h1
+{
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.logoContainer
+{
+    display: flex;
+    justify-content: space-between;
+}
+
+.logoContainer > h1
+{
+    margin: auto auto;
+}
+
+.logoImage
+{
+    height: 100px;
+    width: 100px;
+}
+
+.logoImage > img
+{
+    height: 70px;
+    width: 70px;
+}
+
+nav
+{
+    background-color: var(--primary-background-color);
+}
+
+ul
+{
+    display: flex;
+    height: 50px;
+    justify-content:space-around;
+    padding-inline-start: 0px;
+}
+
+li
+{
+    list-style-type: none;
+}
+
+li > a
+{
+    text-decoration: none;
+    color: black;
+    text-transform: uppercase;
+}
+
+main
+{
+    background-color: var(--secondary-background-color);
+    margin-bottom: 10px;
+    padding: 8px;
+    display: flex;
+    align-items:flex-start;
+    justify-content: center;
+}
+
+.mainContainer
+{
+    background-color: var(--primary-background-color);
+    width: 65%;
+    margin: 0px 8px 0px 0px;
+    padding: 20px;
+    height: 365px;
+}
+
+.mainContainer > h1
+{
+    margin-bottom: 20px;
+}
+
+.sideBar
+{
+    background-color: var(--primary-background-color);
+    width: 35%;
+    padding: 15px 5px 0px 5px;
+    height: 365px;
+}
+
+.sideBar > h1 
+{
+    margin-bottom: 20px;
+}
+
+.upperImages > img 
+{
+    width: 125px;
+    height: 125px;
+    border: solid 1px rgba(0, 255, 0, 0);
+    object-fit: cover;
+    display: flex;
+    flex: auto;
+    
+}
+
+.upperImages
+{
+    display: flex;
+}
+
+.bottomImages > img 
+{
+    width: 125px;
+    height: 125px;
+    border: solid 1px rgba(0, 255, 0, 0);
+    object-fit: cover;
+    display: flex;
+    flex: auto;
+}
+
+.bottomImages
+{
+    display:flex;
+}
+
+footer
+{
+    background-color: var(--secondary-background-color);
+    padding: 20px;
+}
+
+#by
+{
+    margin-top: 15px;
+}
